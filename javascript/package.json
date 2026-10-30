@@ -1,0 +1,17 @@
+{
+  "name": "cx-api-quickstart-javascript",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CX.API 中文 Chat Completions 接入示例与离线模拟测试",
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "start": "node chat.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "openai": "7.45.1"
+  }
+}
